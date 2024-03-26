@@ -1,0 +1,44 @@
+# Middleware: GeoBlocksMiddleware.py
+# This middleware facilitates communication and data management between system layers.
+
+class GeoBlocksMiddleware:
+    def __init__(self):
+        # Initialize connections to different layers
+        self.data_layer = None
+        self.network_layer = None
+        self.consensus_layer = None
+        self.application_layer = None
+
+    def register_layer(self, layer_type, layer):
+        # Register a layer with the middleware
+        if layer_type == 'data':
+            self.data_layer = layer
+        elif layer_type == 'network':
+            self.network_layer = layer
+        elif layer_type == 'consensus':
+            self.consensus_layer = layer
+        elif layer_type == 'application':
+            self.application_layer = layer
+        else:
+            raise ValueError("Invalid layer type.")
+
+    def transmit_data(self, source_layer, destination_layer, data):
+        # Transmit data between layers
+        # Placeholder for the data transmission logic
+        pass
+
+    def process_request(self, request, layer_type):
+        # Process requests and direct them to the appropriate layer
+        # Placeholder for the request processing logic
+        pass
+
+# Example usage
+middleware = GeoBlocksMiddleware()
+middleware.register_layer('data', DataLayer())
+middleware.register_layer('network', NetworkLayer())
+middleware.register_layer('consensus', ConsensusLayer())
+middleware.register_layer('application', ApplicationLayer())
+
+# Example of data transmission
+data_packet = {'shape': 'triangle', 'data': {'type': 'transaction', 'amount': 100}}
+middleware.transmit_data('application', 'data', data_packet)
