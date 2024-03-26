@@ -17,7 +17,7 @@ The system’s architecture allows for dynamic sharding and rollups, enhancing t
 
 The system is designed to be scalable, secure, and efficient, with potential applications across various industries such as finance, healthcare, supply chain management, and IoT.
 
-Refining and enriching our geometric data packets is akin to **cutting and polishing* diamonds. 
+Refining and enriching our geometric data packets is akin to *cutting and polishing* diamonds. 
 
 **Sharding with Geometric Data Packets**
 
