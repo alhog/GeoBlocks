@@ -2,6 +2,8 @@
 
 Geometric Data Packets 
 
+**"uncut gems"**
+
 GeoBlocks
 
 Technical Overview of the GeoBlocks System
