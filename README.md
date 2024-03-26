@@ -6,7 +6,9 @@ Geometric Data Packets
 
 Technical Overview of the GeoBlocks System
 
-The GeoBlocks system is a novel blockchain architecture that uses geometric shapes to represent and process data. It consists of two main modules:
+The GeoBlocks system is a novel blockchain architecture that uses geometric shapes to represent and process data. 
+
+It consists of two main modules:
 
 1. 2D Geometric Data Packets Module: Handles two-dimensional shapes like triangles, squares, rectangles, and various polygons. Each shape represents a different type of data packet, with the number of sides correlating to the complexity of the data.
 2. 3D Geometric Data Packets Module: Manages three-dimensional shapes such as spheres, cubes, and cylinders. These shapes can represent more complex data structures or entire systems within the blockchain.
