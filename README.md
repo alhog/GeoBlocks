@@ -2,9 +2,7 @@
 
 Geometric Data Packets 
 
-**"uncut gems"**
-
-GeoBlocks
+**GeoBlocks**
 
 Technical Overview of the GeoBlocks System
 
@@ -18,6 +16,8 @@ Both modules share a common interface for processing and combining data packets,
 The system’s architecture allows for dynamic sharding and rollups, enhancing the network's ability to handle complex data structures and transactions. 
 
 The system is designed to be scalable, secure, and efficient, with potential applications across various industries such as finance, healthcare, supply chain management, and IoT.
+
+Refining and enriching our geometric data packets is akin to **cutting and polishing* diamonds. 
 
 **Sharding with Geometric Data Packets**
 
