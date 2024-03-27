@@ -1,0 +1,41 @@
+# Observer pattern implementation for packets
+class Packet:
+    def __init__(self, properties):
+        self.properties = properties
+        self.observers = []
+
+    def subscribe(self, observer):
+        self.observers.append(observer)
+
+    def notify_observers(self):
+        for observer in self.observers:
+            observer.update(self)
+
+    def change_property(self, key, value):
+        self.properties[key] = value
+        self.notify_observers()
+
+# Example observer that reacts to changes
+class PropertyChangeObserver:
+    def update(self, packet):
+        # Logic to handle the packet's property change
+        print(f"Packet {packet} has changed properties: {packet.properties}")
+
+# State management for packets
+class PacketStateManager:
+    def __init__(self):
+        self.packet_states = {}
+
+    def save_state(self, packet):
+        self.packet_states[packet] = packet.properties.copy()
+
+    def restore_state(self, packet):
+        packet.properties = self.packet_states[packet]
+
+# Example usage
+packet = Packet({'dimension': '2D', 'area': 100})
+observer = PropertyChangeObserver()
+packet.subscribe(observer)
+
+# Change a property and notify observers
+packet.change_property('area', 150)
