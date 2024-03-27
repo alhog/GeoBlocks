@@ -1,0 +1,28 @@
+from UnitManagement import UnitManager
+
+# Initialize the UnitManager
+unit_manager = UnitManager()
+
+# Define the land plot's area (2D packet) and the building's volume (3D packet)
+land_plot_area = {'id': 'land_plot_1', 'unit': 'square_meters', 'value': 1000}
+building_volume = {'id': 'building_1', 'unit': 'cubic_feet', 'value': 50000}
+
+# Add the units to the UnitManager
+unit_manager.add_unit(land_plot_area['id'], land_plot_area['unit'], land_plot_area['value'])
+unit_manager.add_unit(building_volume['id'], building_volume['unit'], building_volume['value'])
+
+# Retrieve the standard units from the UnitManager
+standard_land_plot_area = unit_manager.get_standard_unit(land_plot_area['id'])
+standard_building_volume = unit_manager.get_standard_unit(building_volume['id'])
+
+# Perform the complex interaction: Check if the building's volume is within the allowed limit based on the land plot's area
+# Let's assume the allowed volume is 0.8 times the area of the land plot
+allowed_building_volume = standard_land_plot_area[1] * 0.8  # Convert area to an equivalent volume
+
+if standard_building_volume[1] <= allowed_building_volume:
+    print(f"The building's volume is within the allowed limit.")
+else:
+    print(f"The building's volume exceeds the allowed limit.")
+
+# Prepare units for further interactions if necessary
+unit_manager.convert_units_for_interaction([land_plot_area['id'], building_volume['id']])
