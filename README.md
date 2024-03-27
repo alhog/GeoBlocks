@@ -1,12 +1,12 @@
-# GeoBlocks
+# GeoBloks
 
 Geometric Data Packets 
 
-**GeoBlocks**
+**GeoBloks**
 
-Technical Overview of the GeoBlocks System
+Technical Overview of the GeoBloks System
 
-The GeoBlocks system is a novel blockchain architecture that uses geometric shapes to represent and process data. 
+The GeoBloks system is a novel blockchain architecture that uses geometric shapes to represent and process data. 
 
 It consists of two main modules:
 
@@ -19,7 +19,7 @@ The system’s architecture allows for dynamic sharding and rollups, enhancing t
 
 The system is designed to be scalable, secure, and efficient, with potential applications across various industries such as finance, healthcare, supply chain management, and IoT.
 
-Refining and enriching our geometric data packets is akin to *cutting and polishing* diamonds. 
+Refining and enriching our geometric data packets is akin to *cutting and polishing* gems. 
 
 **Sharding with Geometric Data Packets**
 
@@ -51,9 +51,9 @@ To formalize this geometric approach, the following steps could be taken:
 
 3. **Implement Geometric Rollups**: Design a system that can integrate sharded computations into the main ledger, ensuring data integrity and system rebasement.
 
-By formalizing these processes, GeoBlocks could leverage the geometric data model to enhance blockchain technology's concurrency, efficiency, and security. This would make the system more intuitive and visually engaging, potentially attracting a wider user base.
+By formalizing these processes, GeoBloks could leverage the geometric data model to enhance blockchain technology's concurrency, efficiency, and security. This would make the system more intuitive and visually engaging, potentially attracting a wider user base.
 
-Key Features of the GeoBlocks System:
+### Key Features of the GeoBloks System:
 
 **Geometric Data Representation:** 
 A unique approach to data structuring that uses geometric shapes to represent different data types and complexities.
@@ -68,11 +68,11 @@ Completed computations are rolled up into the blockchain ledger, ensuring data i
 Both 2D and 3D modules are designed to be composable, allowing for complex data structures and systems to be represented within the blockchain.
 
 **Interoperability with Legacy Systems:**
-Scripts and modules are provided to integrate GeoBlocks with existing legacy systems, facilitating a smooth transition to the new technology.
+Scripts and modules are provided to integrate GeoBloks with existing legacy systems, facilitating a smooth transition to the new technology.
 
 **Technical Architecture:**
 
-The GeoBlocks system is built on a layered architecture:
+The GeoBloks system is built on a layered architecture:
 
 1. Data Layer: Where geometric data packets are created and processed.
 
@@ -82,4 +82,4 @@ The GeoBlocks system is built on a layered architecture:
 
 4. Application Layer: Provides interfaces and tools for users and developers to interact with the GeoBlocks system.
 
-Overall, GeoBlocks presents a forward-thinking solution to blockchain technology challenges, offering a system that is not only robust and versatile but also intuitive and visually engaging. The use of geometric shapes as data packets is a step towards making blockchain more accessible and understandable to a broader audience.
+Overall, GeoBloks presents a forward-thinking solution to blockchain technology challenges, offering a system that is not only robust and versatile but also intuitive and visually engaging. The use of geometric shapes as data packets is a step towards making blockchain more accessible and understandable to a broader audience.
